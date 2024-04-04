@@ -1,26 +1,26 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: [
-    'nuxt-primevue',
-    '@nuxtjs/google-fonts',
-  ],
-  primevue: {
-    options: {
-      unstyled: true,
+    modules: [
+        'nuxt-primevue',
+        '@nuxtjs/google-fonts',
+    ],
+    primevue: {
+        options: {
+            unstyled: true,
+        },
     },
-  },
-  googleFonts: {
-    families: {
-      'Lexend Mega': true,
-      'Sen': true,
+    googleFonts: {
+        families: {
+            'Lexend Mega': true,
+            'Sen': true,
+        },
     },
-  },
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
+    devtools: { enabled: true },
+    css: ['~/assets/css/main.css'],
+    postcss: {
+        plugins: {
+            tailwindcss: {},
+            autoprefixer: {},
+        },
     },
-  },
 })
