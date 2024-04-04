@@ -9,7 +9,14 @@ export default {
     './error.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        black: '#000000',
+      },
+    },
+    fontFamily: {
+      logo: ['\'Lexend Mega\''],
+    },
   },
   plugins: [],
 }

@@ -2,10 +2,17 @@
 export default defineNuxtConfig({
   modules: [
     'nuxt-primevue',
+    '@nuxtjs/google-fonts',
   ],
   primevue: {
     options: {
       unstyled: true,
+    },
+  },
+  googleFonts: {
+    families: {
+      'Lexend Mega': true,
+      'Sen': true,
     },
   },
   devtools: { enabled: true },

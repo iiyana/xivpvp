@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    background-color: black;
+}
+
+
+@layer base {
+    html {
+      font-family: "Sen"
+    }
+  }
