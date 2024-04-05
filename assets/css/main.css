@@ -9,6 +9,26 @@
 
 @layer base {
     html {
-      font-family: "Sen"
+        font-family: "Sen"
     }
+}
+
+@layer base {
+    .font-outline-secondary {
+        text-shadow:
+        -1px -1px 0 #858585,  
+        1px -1px 0 #858585,
+        -1px 1px 0 #858585,
+        1px 1px 0 #858585;
+    }
+    .font-outline-white {
+        text-shadow:
+        -1px -1px 0 white,  
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
   }
+   .font-outline-4 {
+        -webkit-text-stroke: 4px white;
+    }
+}

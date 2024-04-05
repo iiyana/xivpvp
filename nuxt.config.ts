@@ -13,6 +13,7 @@ export default defineNuxtConfig({
         families: {
             'Lexend Mega': true,
             'Sen': true,
+            'Roboto Mono': true,
         },
     },
     devtools: { enabled: true },

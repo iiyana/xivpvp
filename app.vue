@@ -1,14 +1,21 @@
 <script>
-const num = ref(0)
 
-setInterval(() => {
-    num.value += 1
-}, 1000)
 </script>
+
+<!--
+                     Header
+    ---------------------------------------------
+                |               |
+       NavLeft  |    Content    |   NavRight
+                |               |
+                | --------------|
+                |    Footer     |
+ -->
 
 <template>
     <div class="text-white">
-        <AppHeader />
+        <AppHeader :num="Math.random()" />
         <NuxtPage />
+        <AppFooter />
     </div>
 </template>

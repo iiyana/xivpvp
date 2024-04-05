@@ -12,10 +12,13 @@ export default {
         extend: {
             colors: {
                 black: '#000000',
+                primary: '#D43131',
+                secondary: '#858585',
             },
         },
         fontFamily: {
             logo: ['\'Lexend Mega\''],
+            nums: ['\'Roboto Mono\''],
         },
     },
     plugins: [],
