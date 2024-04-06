@@ -3,7 +3,7 @@ defineProps(['num'])
 </script>
 
 <template>
-    <div>
+    <header class="sticky top-0">
         this is my header so cooool {{ num }}
-    </div>
+    </header>
 </template>

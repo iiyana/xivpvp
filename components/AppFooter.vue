@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <footer class="sticky bottom-0">
         this is my footer
-    </div>
+    </footer>
 </template>
