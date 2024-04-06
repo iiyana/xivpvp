@@ -15,7 +15,7 @@
 <template>
     <div class="text-white flex flex-col min-h-screen">
         <AppHeader />
-        <div class="flex-grow flex flex-row justify-center items-center">
+        <div class="flex-grow flex flex-row justify-center md:items-center">
             <main>
                 <NuxtPage />
             </main>
